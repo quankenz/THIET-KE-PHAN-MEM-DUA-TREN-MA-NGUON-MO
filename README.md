@@ -9,6 +9,7 @@
 #4 NGUYỄN ĐỨC QUÂN
 
 Phân tích chức năng của đoạn mã gốc: Giải hệ phương trình tuyến tính hai ẩn x và y
+
 Link code gốc: https://github.com/QuynhTrang26/baivenumpy/blob/main/giai_he_PT.py
 
 Ý tưởng cải tiến/ phát triển từ đoạn mã gốc:
