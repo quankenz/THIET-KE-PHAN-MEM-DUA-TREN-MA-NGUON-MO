@@ -238,6 +238,7 @@ def show_linear_algebra_window(show_main_function):
     window = tk.Tk()
     window.title("Giải hệ phương trình tuyến tính")
 
+
     equation_entries_list = []
     equation_frames = []
     btn_choose_csv = tk.Button(window, text="Chọn File CSV", command=choose_csv_file)
@@ -271,5 +272,9 @@ def show_linear_algebra_window(show_main_function):
 
     btn_show_history = tk.Button(window, text="Xem Lịch Sử", command=show_history)
     btn_show_history.pack()
+
+    # Thêm nút "Back" để quay lại màn hình chính
+    back_button = tk.Button(window, text="Back", command=lambda: show_main_function(window))
+    back_button.pack()
 
     window.mainloop()
