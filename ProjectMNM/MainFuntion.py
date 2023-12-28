@@ -1,4 +1,6 @@
 # main.py
+#Chương trình gốc: Giải hệ phương trình tuyến tính hai ẩn x và y
+#Chương trình gốc: Giải hệ phương trình tuyến tính hai ẩn x và y
 import tkinter as tk
 from tkinter import ttk
 from GiaiTich import show_calculus_window
