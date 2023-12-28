@@ -12,7 +12,6 @@ Phân tích chức năng của đoạn mã gốc: Giải hệ phương trình tu
 
 Đoạn mã gốc:
 #bài này giải hệ phương trình x+2y=5 và 3x+4y =6
-#để có 1 app giải hệ phương trình có n phương trình n ẩn
   - import numpy as np
   - A = np.array([(1,2),(3,4)])
   - B = np.array([5,6])
