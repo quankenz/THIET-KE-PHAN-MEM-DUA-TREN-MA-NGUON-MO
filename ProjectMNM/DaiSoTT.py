@@ -120,9 +120,9 @@ def show_linear_algebra_window(show_main_function):
         if file_path:
             delete_fields()
             try:
-                df = pd.read_csv(file_path)
+                df = pd.read_csv(file_path, header=None)  # Thêm header=None để bỏ qua dòng đầu tiên
 
-                if not all(df.applymap(np.isreal).all()):
+                if not all(df.apply(np.isreal).all()):
                     messagebox.showerror("Error", "File chứa dữ liệu không phải kiểu số.")
                     return
 
