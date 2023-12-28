@@ -231,9 +231,9 @@ def show_linear_algebra_window(show_main_function):
         # Chuyển list thành mảng NumPy
         matrix = np.array(coefficients)
 
-        # Sử dụng Gaussian elimination để đưa ma trận về dạng bậc thang
-        _, _, rank = np.linalg.svd(matrix)
-        return int(np.sum(rank > 1e-10))
+        # Sử dụng np.linalg.matrix_rank để tính rank của ma trận
+        rank = np.linalg.matrix_rank(matrix[:, :-1])  # Lấy tất cả cột trừ cột cuối cùng (cột kết quả)
+        return rank
 
     window = tk.Tk()
     window.title("Giải hệ phương trình tuyến tính")
