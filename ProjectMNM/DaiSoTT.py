@@ -18,7 +18,7 @@ def show_linear_algebra_window(show_main_function):
         history.append({'coefficients': coefficients, 'results': results, 'solution': solution})
 
     def create(entry):
-        delete_fields()
+
         num_equations = int(entry.get())
         for i in range(num_equations):
             frame = tk.Frame(window)
@@ -41,6 +41,8 @@ def show_linear_algebra_window(show_main_function):
         equation_entries_list.clear()
         for frame in equation_frames:
             frame.destroy()
+
+        n_entry.delete(0, tk.END)
 
     def validate_input(entry):
         try:
