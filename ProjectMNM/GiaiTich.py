@@ -11,6 +11,7 @@ def show_calculus_window(show_main_function):
         for entry in input_entries:
             entry.delete(0, 'end')
         result_label.config(text="")
+        result_label_tich_phan.config(text="")
         result_label_dao_ham.config(text="")
         result_label_khai_trien.config(text="")
         result_label_rut_gon.config(text="")
