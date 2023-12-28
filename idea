@@ -1,1 +1,13 @@
-
+# Phân tích ý tưởng cải tiến
+- Giao diện ban đầu sẽ có tiêu đề và 3 button
++ Button Giải tích: để mở ra giao diện thực hiện các chức năng của giải tích như: tính tích phân, tính đạo hàm, rút gọn biểu thức, khai triển biểu thức...
++ Button Đại số tuyến tính mở ra giao diện thực hiện các chức năng của đại số tuyến tính như giải hệ phương trình, tính bậc, xem lại lịch sử...
++ Button thoát: Đóng ứng dụng khi được nhấn vào
+- Giao diện của Giải tích: Gồm các nút nhấn để chọn chức năng tính toán giải tích của ứng dụng. 
++ Mỗi chức năng sẽ có 1 nút riêng và có thêm nút xóa dữ liệu để xóa hết dữ liệu đang có trên màn hình và 1 nút back để quay lại màn hình ban đầu
++ Khi chọn 1 nút chức năng sẽ có các ô để nhập dữ liệu tương ứng với chức năng đó được hiện ra, nhập đúng dữ liệu và nhấn nút giải để hiển thị kết quả
++ Có thể nhấn nút lưu để lưu kết quả hoặc chọn chức năng khác để tính toán.
+- Giao diện đại số tuyến tính: Gồm các nút chức năng giải hệ phương trình, tính rank và một số nút chức năng đi kèm như tạo hệ phương trình, xóa dữ liệu...
++ Để nhấn giải phương trình được thì cần phải nhập số phương trình mong muốn rồi nhấn tạo để tạo ra các ô nhập dữ liệu.
++ Nhập dữ liệu và nhấn giải sẽ hiển thị kết quả hoặc nhấn tính bậc để xem bậc của hệ.
++ Ngoài ra, có thể nhấn xem lại lịch sử đã tính toán, xóa dữ liệu,chọn file hay back về màn hình ban đầu.
