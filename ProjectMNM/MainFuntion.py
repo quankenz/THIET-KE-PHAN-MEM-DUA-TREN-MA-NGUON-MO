@@ -1,6 +1,6 @@
 # main.py
 #Chương trình gốc: Giải hệ phương trình tuyến tính hai ẩn x và y
-#Chương trình gốc: Giải hệ phương trình tuyến tính hai ẩn x và y
+#Ý tưởng cải tiến/ phát triển từ đoạn mã gốc: Giải tích: tích phân, đạo hàm, khai triển và rút gọn biểu thức, giới hạn Đại số tuyến tính: Giải hệ phương trình, tính bậc ma trận, xem lịch sử, cho phép nhập số phương trình.
 import tkinter as tk
 from tkinter import ttk
 from GiaiTich import show_calculus_window
