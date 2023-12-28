@@ -1,3 +1,7 @@
+#Ý tưởng cải tiến/ phát triển từ đoạn mã gốc: 
++Giải tích: tích phân, đạo hàm, khai triển và rút gọn biểu thức, giới hạn 
++Đại số tuyến tính: Giải hệ phương trình, tính bậc ma trận, xem lịch sử, cho phép nhập số phương trình.
+
 # Phân tích ý tưởng cải tiến
 - Giao diện ban đầu sẽ có tiêu đề và 3 button
 + Button Giải tích: để mở ra giao diện thực hiện các chức năng của giải tích như: tính tích phân, tính đạo hàm, rút gọn biểu thức, khai triển biểu thức...
